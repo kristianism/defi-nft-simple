@@ -1,11 +1,11 @@
-# Simple ERC721 Non-Fungible Token
+## Simple ERC721 Non-Fungible Token
 
 Simple NFT contract that has the basic mint function, ownable, and pausable for troubleshooting.
 
-## Solidity Version:
+### Solidity Version:
 - 0.8.20
 
-## Imports:
+### Imports:
 - @openzeppelin/contracts/token/ERC721/ERC721.sol
 - @openzeppelin/contracts/token/ERC20/IERC20.sol
 - @openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol
@@ -13,13 +13,13 @@ Simple NFT contract that has the basic mint function, ownable, and pausable for 
 - @openzeppelin/contracts/utils/Pausable.sol
 - @openzeppelin/contracts/access/Ownable.sol
 
-## Constructor Arguments:
+### Constructor Arguments:
 - _name: Full name of the NFT collection
 - _symbol: Short name of the NFT Collection
 - _newURI: Base metadata for the NFT Collection
 - _mintPrice: Mint price that you will set for the collection
 
-## Functions:
+### Functions:
 - mintNFT: External function that allows minting of the NFT at a set mint price
 - setBaseURI: External privileged function that allows updating of the NFT metadata in case of server issues
 - setMintPrice: External privileged function that allows updating of the minting price per NFT
